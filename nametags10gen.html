@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<!--    Name: Kellan Clapp
+        Assignment: CS336 Assignment #7
+        Created: 11/1/2024
+        Description: Nametags Template for Python Beautiful Soup   -->
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta content="Nametags" name="description">
+  <meta content="Kellan Clapp" name="author">
+  <meta content="noindex" name="robots">
+  <title>
+   CTC - Nametags
+  </title>
+  <link href="css/nametags10.css" rel="stylesheet">
+ </head>
+ <body>
+  <div class="body">
+   <div class="paper">
+    <div class="page">
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Jill
+       </span>
+       <span class="lastname">
+        Jackson
+       </span>
+       <br>
+       <span class="position">
+        Web Developer
+       </span>
+       <br>
+       <span class="company">
+        Regis University
+       </span>
+       <br>
+       <span class="city">
+        Denver
+       </span>
+       ,
+       <span class="state">
+        CO
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        John
+       </span>
+       <span class="lastname">
+        Smith
+       </span>
+       <br>
+       <span class="position">
+        IT Manager
+       </span>
+       <br>
+       <span class="company">
+        Really Big Company
+       </span>
+       <br>
+       <span class="city">
+        Denver
+       </span>
+       ,
+       <span class="state">
+        CO
+       </span>
+      </div>
+     </div>
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Lucy
+       </span>
+       <span class="lastname">
+        Robertson
+       </span>
+       <br>
+       <span class="position">
+        Senior Developer
+       </span>
+       <br>
+       <span class="company">
+        Walmart
+       </span>
+       <br>
+       <span class="city">
+        Bentonville
+       </span>
+       ,
+       <span class="state">
+        AR
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Benjamin
+       </span>
+       <span class="lastname">
+        Reyes
+       </span>
+       <br>
+       <span class="position">
+        Quality Control Lead
+       </span>
+       <br>
+       <span class="company">
+        Quality Is Us!
+       </span>
+       <br>
+       <span class="city">
+        Austin
+       </span>
+       ,
+       <span class="state">
+        TX
+       </span>
+      </div>
+     </div>
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Ada
+       </span>
+       <span class="lastname">
+        Lovelace
+       </span>
+       <br>
+       <span class="position">
+        Mathematician
+       </span>
+       <br>
+       <span class="company">
+        Regis University
+       </span>
+       <br>
+       <span class="city">
+        Denver
+       </span>
+       ,
+       <span class="state">
+        CO
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Bill
+       </span>
+       <span class="lastname">
+        Gates
+       </span>
+       <br>
+       <span class="position">
+        Computer Programmer
+       </span>
+       <br>
+       <span class="company">
+        Microsoft
+       </span>
+       <br>
+       <span class="city">
+        Redmond
+       </span>
+       ,
+       <span class="state">
+        WA
+       </span>
+      </div>
+     </div>
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Corrinne
+       </span>
+       <span class="lastname">
+        Yu
+       </span>
+       <br>
+       <span class="position">
+        Game Programmer
+       </span>
+       <br>
+       <span class="company">
+        Naughty Dog
+       </span>
+       <br>
+       <span class="city">
+        Santa Monica
+       </span>
+       ,
+       <span class="state">
+        CA
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Donald
+       </span>
+       <span class="lastname">
+        Knuth
+       </span>
+       <br>
+       <span class="position">
+        Professor
+       </span>
+       <br>
+       <span class="company">
+        Stanford University
+       </span>
+       <br>
+       <span class="city">
+        Standford
+       </span>
+       ,
+       <span class="state">
+        CA
+       </span>
+      </div>
+     </div>
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Audrey
+       </span>
+       <span class="lastname">
+        Tang
+       </span>
+       <br>
+       <span class="position">
+        Software Programmer
+       </span>
+       <br>
+       <span class="company">
+        Pugs Project
+       </span>
+       <br>
+       <span class="city">
+        San Jose
+       </span>
+       ,
+       <span class="state">
+        CA
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Jill2
+       </span>
+       <span class="lastname">
+        Jackson
+       </span>
+       <br>
+       <span class="position">
+        Web Developer
+       </span>
+       <br>
+       <span class="company">
+        Regis University
+       </span>
+       <br>
+       <span class="city">
+        Denver
+       </span>
+       ,
+       <span class="state">
+        CO
+       </span>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="paper">
+    <div class="page">
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        John2
+       </span>
+       <span class="lastname">
+        Smith
+       </span>
+       <br>
+       <span class="position">
+        IT Manager
+       </span>
+       <br>
+       <span class="company">
+        Really Big Company
+       </span>
+       <br>
+       <span class="city">
+        Denver
+       </span>
+       ,
+       <span class="state">
+        CO
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Lucy2
+       </span>
+       <span class="lastname">
+        Robertson
+       </span>
+       <br>
+       <span class="position">
+        Senior Developer
+       </span>
+       <br>
+       <span class="company">
+        Walmart
+       </span>
+       <br>
+       <span class="city">
+        Bentonville
+       </span>
+       ,
+       <span class="state">
+        AR
+       </span>
+      </div>
+     </div>
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Benjamin2
+       </span>
+       <span class="lastname">
+        Reyes
+       </span>
+       <br>
+       <span class="position">
+        Quality Control Lead
+       </span>
+       <br>
+       <span class="company">
+        Quality Is Us!
+       </span>
+       <br>
+       <span class="city">
+        Austin
+       </span>
+       ,
+       <span class="state">
+        TX
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Ada2
+       </span>
+       <span class="lastname">
+        Lovelace
+       </span>
+       <br>
+       <span class="position">
+        Mathematician
+       </span>
+       <br>
+       <span class="company">
+        Regis University
+       </span>
+       <br>
+       <span class="city">
+        Denver
+       </span>
+       ,
+       <span class="state">
+        CO
+       </span>
+      </div>
+     </div>
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Bill2
+       </span>
+       <span class="lastname">
+        Gates
+       </span>
+       <br>
+       <span class="position">
+        Computer Programmer
+       </span>
+       <br>
+       <span class="company">
+        Microsoft
+       </span>
+       <br>
+       <span class="city">
+        Redmond
+       </span>
+       ,
+       <span class="state">
+        WA
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Corrinne2
+       </span>
+       <span class="lastname">
+        Yu
+       </span>
+       <br>
+       <span class="position">
+        Game Programmer
+       </span>
+       <br>
+       <span class="company">
+        Naughty Dog
+       </span>
+       <br>
+       <span class="city">
+        Santa Monica
+       </span>
+       ,
+       <span class="state">
+        CA
+       </span>
+      </div>
+     </div>
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Donald2
+       </span>
+       <span class="lastname">
+        Knuth
+       </span>
+       <br>
+       <span class="position">
+        Professor
+       </span>
+       <br>
+       <span class="company">
+        Stanford University
+       </span>
+       <br>
+       <span class="city">
+        Standford
+       </span>
+       ,
+       <span class="state">
+        CA
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Audrey2
+       </span>
+       <span class="lastname">
+        Tang
+       </span>
+       <br>
+       <span class="position">
+        Software Programmer
+       </span>
+       <br>
+       <span class="company">
+        Pugs Project
+       </span>
+       <br>
+       <span class="city">
+        San Jose
+       </span>
+       ,
+       <span class="state">
+        CA
+       </span>
+      </div>
+     </div>
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Jill3
+       </span>
+       <span class="lastname">
+        Jackson
+       </span>
+       <br>
+       <span class="position">
+        Web Developer
+       </span>
+       <br>
+       <span class="company">
+        Regis University
+       </span>
+       <br>
+       <span class="city">
+        Denver
+       </span>
+       ,
+       <span class="state">
+        CO
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        John3
+       </span>
+       <span class="lastname">
+        Smith
+       </span>
+       <br>
+       <span class="position">
+        IT Manager
+       </span>
+       <br>
+       <span class="company">
+        Really Big Company
+       </span>
+       <br>
+       <span class="city">
+        Denver
+       </span>
+       ,
+       <span class="state">
+        CO
+       </span>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="paper">
+    <div class="page">
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Lucy3
+       </span>
+       <span class="lastname">
+        Robertson
+       </span>
+       <br>
+       <span class="position">
+        Senior Developer
+       </span>
+       <br>
+       <span class="company">
+        Walmart
+       </span>
+       <br>
+       <span class="city">
+        Bentonville
+       </span>
+       ,
+       <span class="state">
+        AR
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Benjamin3
+       </span>
+       <span class="lastname">
+        Reyes
+       </span>
+       <br>
+       <span class="position">
+        Quality Control Lead
+       </span>
+       <br>
+       <span class="company">
+        Quality Is Us!
+       </span>
+       <br>
+       <span class="city">
+        Austin
+       </span>
+       ,
+       <span class="state">
+        TX
+       </span>
+      </div>
+     </div>
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Ada3
+       </span>
+       <span class="lastname">
+        Lovelace
+       </span>
+       <br>
+       <span class="position">
+        Mathematician
+       </span>
+       <br>
+       <span class="company">
+        Regis University
+       </span>
+       <br>
+       <span class="city">
+        Denver
+       </span>
+       ,
+       <span class="state">
+        CO
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Bill3
+       </span>
+       <span class="lastname">
+        Gates
+       </span>
+       <br>
+       <span class="position">
+        Computer Programmer
+       </span>
+       <br>
+       <span class="company">
+        Microsoft
+       </span>
+       <br>
+       <span class="city">
+        Redmond
+       </span>
+       ,
+       <span class="state">
+        WA
+       </span>
+      </div>
+     </div>
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Corrinne3
+       </span>
+       <span class="lastname">
+        Yu
+       </span>
+       <br>
+       <span class="position">
+        Game Programmer
+       </span>
+       <br>
+       <span class="company">
+        Naughty Dog
+       </span>
+       <br>
+       <span class="city">
+        Santa Monica
+       </span>
+       ,
+       <span class="state">
+        CA
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Donald3
+       </span>
+       <span class="lastname">
+        Knuth
+       </span>
+       <br>
+       <span class="position">
+        Professor
+       </span>
+       <br>
+       <span class="company">
+        Stanford University
+       </span>
+       <br>
+       <span class="city">
+        Standford
+       </span>
+       ,
+       <span class="state">
+        CA
+       </span>
+      </div>
+     </div>
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Audrey3
+       </span>
+       <span class="lastname">
+        Tang
+       </span>
+       <br>
+       <span class="position">
+        Software Programmer
+       </span>
+       <br>
+       <span class="company">
+        Pugs Project
+       </span>
+       <br>
+       <span class="city">
+        San Jose
+       </span>
+       ,
+       <span class="state">
+        CA
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Jill4
+       </span>
+       <span class="lastname">
+        Jackson
+       </span>
+       <br>
+       <span class="position">
+        Web Developer
+       </span>
+       <br>
+       <span class="company">
+        Regis University
+       </span>
+       <br>
+       <span class="city">
+        Denver
+       </span>
+       ,
+       <span class="state">
+        CO
+       </span>
+      </div>
+     </div>
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        John4
+       </span>
+       <span class="lastname">
+        Smith
+       </span>
+       <br>
+       <span class="position">
+        IT Manager
+       </span>
+       <br>
+       <span class="company">
+        Really Big Company
+       </span>
+       <br>
+       <span class="city">
+        Denver
+       </span>
+       ,
+       <span class="state">
+        CO
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Lucy4
+       </span>
+       <span class="lastname">
+        Robertson
+       </span>
+       <br>
+       <span class="position">
+        Senior Developer
+       </span>
+       <br>
+       <span class="company">
+        Walmart
+       </span>
+       <br>
+       <span class="city">
+        Bentonville
+       </span>
+       ,
+       <span class="state">
+        AR
+       </span>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="paper">
+    <div class="page">
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Benjamin4
+       </span>
+       <span class="lastname">
+        Reyes
+       </span>
+       <br>
+       <span class="position">
+        Quality Control Lead
+       </span>
+       <br>
+       <span class="company">
+        Quality Is Us!
+       </span>
+       <br>
+       <span class="city">
+        Austin
+       </span>
+       ,
+       <span class="state">
+        TX
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Ada4
+       </span>
+       <span class="lastname">
+        Lovelace
+       </span>
+       <br>
+       <span class="position">
+        Mathematician
+       </span>
+       <br>
+       <span class="company">
+        Regis University
+       </span>
+       <br>
+       <span class="city">
+        Denver
+       </span>
+       ,
+       <span class="state">
+        CO
+       </span>
+      </div>
+     </div>
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Bill4
+       </span>
+       <span class="lastname">
+        Gates
+       </span>
+       <br>
+       <span class="position">
+        Computer Programmer
+       </span>
+       <br>
+       <span class="company">
+        Microsoft
+       </span>
+       <br>
+       <span class="city">
+        Redmond
+       </span>
+       ,
+       <span class="state">
+        WA
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Corrinne4
+       </span>
+       <span class="lastname">
+        Yu
+       </span>
+       <br>
+       <span class="position">
+        Game Programmer
+       </span>
+       <br>
+       <span class="company">
+        Naughty Dog
+       </span>
+       <br>
+       <span class="city">
+        Santa Monica
+       </span>
+       ,
+       <span class="state">
+        CA
+       </span>
+      </div>
+     </div>
+     <div class="row">
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Donald4
+       </span>
+       <span class="lastname">
+        Knuth
+       </span>
+       <br>
+       <span class="position">
+        Professor
+       </span>
+       <br>
+       <span class="company">
+        Stanford University
+       </span>
+       <br>
+       <span class="city">
+        Standford
+       </span>
+       ,
+       <span class="state">
+        CA
+       </span>
+      </div>
+      <div class="nametag">
+       <br>
+       <span class="firstname">
+        Audrey4
+       </span>
+       <span class="lastname">
+        Tang
+       </span>
+       <br>
+       <span class="position">
+        Software Programmer
+       </span>
+       <br>
+       <span class="company">
+        Pugs Project
+       </span>
+       <br>
+       <span class="city">
+        San Jose
+       </span>
+       ,
+       <span class="state">
+        CA
+       </span>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
